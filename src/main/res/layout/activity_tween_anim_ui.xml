@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnScale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScaleAnimation（缩放动画）" />
+
+        <Button
+            android:id="@+id/btnApla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AplaAnimation（透明度动画）" />
+
+        <Button
+            android:id="@+id/btnRotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RotateAnimation（旋转动画）" />
+
+        <Button
+            android:id="@+id/btnTransalte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TranslateAnimation（移动动画）" />
+
+        <Button
+            android:id="@+id/btnScaleXml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScaleAnimation（缩放动画二）" />
+
+        <Button
+            android:id="@+id/btnAplaXml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AplaAnimation（透明度动画二）" />
+
+        <Button
+            android:id="@+id/btnRotateXml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RotateAnimation（旋转动画二）" />
+
+        <Button
+            android:id="@+id/btnTransalteXml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TranslateAnimation（移动动画二）" />
+
+        <Button
+            android:id="@+id/btnComplex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ComplexAnimation(动画组合）" />
+
+        <Button
+            android:id="@+id/btnStartActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity 切换" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg03" />
+
+</RelativeLayout>

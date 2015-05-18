@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+
+        >
+
+        <Button
+            android:id="@+id/btnMove"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Move"
+
+            />
+
+        <Button
+            android:id="@+id/btnProComplex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PropertyComplex"
+
+            />
+        <Button
+            android:id="@+id/btnProComplex2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PropertyComplex2"
+
+            />
+        <Button
+            android:id="@+id/btnProComplex3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PropertyComplex3"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgObject"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/anim_frame_01"
+
+        />
+
+
+</RelativeLayout>
